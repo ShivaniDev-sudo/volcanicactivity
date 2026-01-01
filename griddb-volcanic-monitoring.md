@@ -1,7 +1,7 @@
 ## **Introduction**
 The capacity to monitor geological events in real-time is a critical component of modern public safety and environmental management strategies. For events such as volcanic eruptions, where precursors like increased seismic activity can offer vital windows for action, the ability to ingest, process, and visualize data with minimal latency is paramount. An effective monitoring system is foundational for reliable early-warning protocols and efficient disaster response.
 
-This technical guide details the development of a high-performance volcanic activity monitoring system. The solution leverages **GridDB Cloud**, a database optimized for time-series data, in conjunction with the **Spring Boot** framework for a robust backend architecture. The system ingests live data from USGS APIs, persists it to GridDB, and presents the information on a dynamic, map-centric web interface, providing a powerful and practical monitoring tool.
+This technical guide details the development of a high-performance volcanic activity monitoring system. The solution leverages [GridDB Cloud](https://www.global.toshiba/ww/products-solutions/ai-iot/griddb/product/griddb-cloud.html), a database optimized for time-series data, in conjunction with the **Spring Boot** framework for a robust backend architecture. The system ingests live data from USGS APIs, persists it to GridDB, and presents the information on a dynamic, map-centric web interface, providing a powerful and practical monitoring tool.
 
 ## Database Selection: The Case for GridDB
 
